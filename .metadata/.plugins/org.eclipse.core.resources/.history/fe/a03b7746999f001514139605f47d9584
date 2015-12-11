@@ -1,5 +1,0 @@
-package com.ap.shm.dao;
-
-public interface IServiceDao extends IDao<Service>{
-
-}

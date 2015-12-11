@@ -1,4 +1,0 @@
-jdbc.driverClassName=com.mysql.jdbc.Driver
-jdbc.url=jdbc:jtds:sqlserver://USIDCVSQL1004.corp.global.level3.com/SIDB_Dev2
-jdbc.username=apmsgui_rw
-jdbc.password=APMSgui_rw!

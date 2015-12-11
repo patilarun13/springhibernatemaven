@@ -1,7 +1,0 @@
-package com.ap.shm.entity;
-
-import javax.persistence.*;
-
-public class Service {
-
-}
