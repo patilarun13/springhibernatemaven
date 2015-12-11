@@ -1,0 +1,10 @@
+package com.ap.shm.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class DaoBase<T> implements IDao{
+
+	@Autowired(required=true)
+	protected SessionFactory sessionFactory;
+}

@@ -1,0 +1,6 @@
+package com.ap.shm.dao;
+
+public interface IDao<T> {
+
+	
+}

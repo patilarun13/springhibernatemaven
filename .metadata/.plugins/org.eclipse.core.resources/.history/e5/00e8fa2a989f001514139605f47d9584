@@ -1,0 +1,7 @@
+package com.ap.shm.dao;
+
+public class DaoBase<T> {
+
+	@Autowired(required=true)
+	protected SessionFactory sessionFactory;
+}

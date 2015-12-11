@@ -1,0 +1,6 @@
+package com.ap.shm.entity;
+
+@Entity
+public class Service {
+
+}

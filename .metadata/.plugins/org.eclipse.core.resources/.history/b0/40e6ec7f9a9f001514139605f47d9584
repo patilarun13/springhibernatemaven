@@ -1,0 +1,15 @@
+package com.ap.shm.dao;
+
+import com.ap.shm.entity.Service;
+
+@Repository
+@Transactional
+public class ServiceDao extends DaoBase<Service> implements IServiceDao{
+
+	@Override
+	protected String getQueryPrefix() {
+		
+		return "service";
+	}
+
+}
