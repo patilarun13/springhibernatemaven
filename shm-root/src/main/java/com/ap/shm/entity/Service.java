@@ -1,5 +1,7 @@
 package com.ap.shm.entity;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,7 +18,12 @@ import javax.persistence.Table;;
 	@NamedQuery(name="service.findAllCount", query="select COUNT(s) from Service s where s.dataStateId=1"),
 	
 })
-public class Service {
+public class Service implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Id 
     @GeneratedValue(strategy=GenerationType.AUTO) 
@@ -42,6 +49,7 @@ public class Service {
 		this.name = name;
 	}
     
+	@Override
 	public String toString() {
 		return name;
 	}

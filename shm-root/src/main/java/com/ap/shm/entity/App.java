@@ -8,7 +8,7 @@ import com.ap.shm.dao.IServiceDao;
 import com.ap.shm.util.ServiceDaoUtil;
 
 /**
- * Hello world!
+ * Hello App
  *
  */
 public class App {
@@ -19,6 +19,7 @@ public class App {
     public static void main( String[] args ) {
        
     	
+		@SuppressWarnings("resource")
 		ApplicationContext context = 
     	    	  new ClassPathXmlApplicationContext(new String[] {"config/BeanLocations.xml"});
     	
