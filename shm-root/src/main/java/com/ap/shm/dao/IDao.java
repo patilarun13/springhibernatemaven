@@ -6,5 +6,6 @@ public interface IDao<T> {
 
 	public List<T> getRecords();
 	public Long getRecordsCount();
+	public List<T> getRecordById(int id);
 	
 }

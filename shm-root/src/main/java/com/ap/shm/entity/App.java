@@ -24,7 +24,7 @@ public class App {
     	    	  new ClassPathXmlApplicationContext(new String[] {"config/BeanLocations.xml"});
     	
     	ServiceDaoUtil svcDaoUtil = (ServiceDaoUtil)context.getBean("svcDaoUtil");
-    	svcDaoUtil.somFun();
+    	svcDaoUtil.getServiceById(2107);
     	
     }
 }

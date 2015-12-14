@@ -12,9 +12,9 @@ public class ServiceDaoUtil {
 	@Autowired
 	private IServiceDao svcDao;
 	
-	public void somFun() {
+	public void getServiceById(int svcId) {
 		
-		List<Service> svcList = this.svcDao.getRecords();
+		List<Service> svcList = this.svcDao.getRecordById(svcId);
 		System.out.println(svcList);
 		
 	}
